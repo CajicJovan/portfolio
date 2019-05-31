@@ -1,0 +1,2 @@
+User-agent:  *
+Disallow: http://sajtovistudenata.ict.edu.rs/196_18/autor.html

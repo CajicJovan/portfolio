@@ -1,0 +1,56 @@
+@media only screen and (max-width: 740px) {
+  body header #header #navigation .wrapper .flex-between #logo {
+    display: none;
+  }
+  body header #header #navigation .wrapper .flex-between #meni {
+    width: 100%;
+  }
+  body main #slider {
+    height: 400px;
+  }
+  body main .wrapper #about #about-flex p {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body #slider hgroup {
+    height: 130px !important;
+  }
+  body .wrapper #projects {
+    height: 350px !important;
+  }
+  body .wrapper #skills .skills {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  body header #header #navigation {
+    height: 190px !important;
+    text-align: center;
+  }
+  body header #header #navigation #meni {
+    margin-top: 0px;
+    height: 150px;
+  }
+  body header #header #navigation #meni ul {
+    display: block;
+  }
+  body header #header #navigation #meni ul li {
+    border-bottom: 1px solid #fff;
+  }
+  body header #header #navigation #meni ul li a {
+    font-size: 20px;
+  }
+  body header #header #navigation #meni ul li a:hover {
+    font-size: 20px;
+  }
+  body main {
+    margin-top: 90px !important;
+  }
+}
+/*# sourceMappingURL=media.css.map */
